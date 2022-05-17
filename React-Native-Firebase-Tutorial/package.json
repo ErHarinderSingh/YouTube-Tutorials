@@ -1,0 +1,54 @@
+{
+  "name": "firebaseDemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/toolbar-android": "^0.1.0-rc.2",
+    "@react-native-firebase/admob": "^7.2.0",
+    "@react-native-firebase/analytics": "^7.4.1",
+    "@react-native-firebase/app": "^8.1.0",
+    "@react-native-firebase/auth": "^8.0.5",
+    "@react-native-firebase/crashlytics": "^8.3.2",
+    "@react-native-firebase/database": "^7.2.2",
+    "@react-native-firebase/dynamic-links": "^7.4.1",
+    "@react-native-firebase/firestore": "^7.1.7",
+    "@react-native-firebase/functions": "^7.2.1",
+    "@react-native-firebase/in-app-messaging": "^7.3.1",
+    "@react-native-firebase/messaging": "^7.6.1",
+    "@react-native-firebase/storage": "^7.1.4",
+    "@react-navigation/bottom-tabs": "^5.4.5",
+    "@react-navigation/drawer": "^5.7.5",
+    "@react-navigation/native": "^5.4.0",
+    "@react-navigation/stack": "^5.3.7",
+    "native-base": "2.13.12",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-image-picker": "^2.3.1",
+    "react-native-onesignal": "^3.8.1",
+    "react-native-reanimated": "^1.8.0",
+    "react-native-safe-area-context": "^1.0.0",
+    "react-native-screens": "^2.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
